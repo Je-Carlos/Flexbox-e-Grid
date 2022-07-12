@@ -1,0 +1,95 @@
+/*Importando os icones*/
+@font-face {
+  font-family: 'icones';
+  src: url(../font/icones.ttf);
+}
+
+body {
+  background-color: #1D232A;
+  font-family: 'Open Sans','icones', sans-serif;
+}
+.header__top{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  background-color: #15191C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+.header__menu i::before{
+  content: "\e904";
+  font-size:25px;
+  padding-left: 10px;
+}
+.header__notification i::before{
+  content: "\e906";
+  font-size:25px;
+  padding-right: 10px;
+}
+.header__logo{
+  width: 60px;
+}
+
+.menu-sidebar{
+  display: flex;
+  flex-direction: column;
+  background-color: #15191C;
+  width: 75vw;
+  height: 100vh;
+  position:absolute;
+  left: -100vh;
+  transition: .35s;
+}
+.menu-sidebar--active{
+  left: 0;
+  transition: .35s;
+}
+.menu-sidebar__logo{
+  width: 118px;
+  padding: 16px;
+  align-self: center;
+
+}
+
+.menu-sidebar__link {
+  height: 64px;
+  padding-left: 64px;
+  color: #95999C;
+  display: flex;
+  align-items: center;
+}
+.menu-sidebar__link::before{
+  content: "\e900";
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  position: absolute;
+  left: 24px;
+}
+.menu-sidebar__link--active{
+  color: #FFFFFF;
+  padding-left: 56px;
+  border-left: 8px solid whitesmoke;
+}
+.menu-sidebar__link--inicio::before{
+  content: "\e902";
+}
+
+.menu-sidebar__link--videos::before{
+  content: "\e90e";
+}
+
+.menu-sidebar__link--picos::before{
+  content: "\e909";
+}
+
+.menu-sidebar__link--integrantes::before{
+  content: "\e903";
+}
+
+.menu-sidebar__link--camisas::before{
+  content: "\e900";
+}
+
+.menu-sidebar__link--pinturas::before{
+  content: "\e90a";
+}
