@@ -1,7 +1,8 @@
 <h1 align="center" > HZC Skate Co. </h1>
 <p align="center">
   <a href="#-setup">Setup</a> •
-  <a href="#-technologies">Technologies</a> 
+  <a href="#-technologies">Technologies</a> •
+  <a href="#-license">License</a>
 </p>
 
 <h3> <p align="center">This Skate Co website is a project that I developed at <a href="https://cursos.alura.com.br/">Alura</a></p></h3>
